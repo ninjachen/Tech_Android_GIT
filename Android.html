@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Build Android Development Environment</title>
+
+    <meta charset='utf-8'>
+    <script
+      src='css/slides.js'></script>
+  </head>
+  
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+    
+    
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+      
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+        
+        
+      
+      <article class='biglogo'>
+      </article>
+
+      <article>
+        <h1>
+          Android Introduction
+        </h1>
+        <p>
+          Ninja Chen
+          <br>
+          July 2014
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          Requirement
+        </h3>
+
+        <ul class="build">
+          <li><b>电脑</b> PC or MAC</li>
+          <li><b>手机</b> Nexus Samsung  XiaoMi</li>
+          <li>开发环境 Idea or Eclipse</li>
+          <li>附加 English VPN</li>
+        </ul>
+      </article>
+
+      <article class='smaller'>
+        <h3>
+          Version distribution: Android vs IOS
+        </h3>
+        <p>
+        <img class='centered' style='height: 350px' src='images/AndroidVersionMay2014.png'>
+        </p>
+        
+      </article>
+
+      <article class='smaller'>
+        <br>
+        <p><img class='centered' style='height: 500px' src='images/IOSVersionApril.jpg'>
+        </p>
+      </article>
+
+      <article>
+        <h3>
+         Android四个基本组件
+        </h3>
+        <ul class="build">
+          <li>
+              Activity
+          </li>
+          <!-- give a pause! task execise;应用程序中，一个Activity通常就是一个单独的屏幕，它上面可以显示一些控件也可以监听并处理用户的事件做出响应。
+
+Activity之间通过Intent进行通信。在Intent 的描述结构中，有两个最重要的部分：动作和动作对应的数据。-->
+          <li>
+              BroadcastReceive
+          </li>
+          <!-- 你的应用可以使用它对外部事件进行过滤只对感兴趣的外部事件(如当电话呼入时，或者数据网络可用时)进行接收并做出响应。广播接收器没有用户界面。然而，它们可以启动一个activity或serice 来响应它们收到的信息，或者用NotificationManager 来通知用户。通知可以用很多种方式来吸引用户的注意力──闪动背灯、震动、播放声音等。一般来说是在状态栏上放一个持久的图标，用户可以打开它并获取消息。-->
+          <li>
+              Service
+          </li>
+          <!-- 一个Service 是一段长生命周期的，没有用户界面的程序，可以用来开发如监控类程序。-->
+          <li>
+              Content Provider
+          </li>
+        </ul>
+      </article>
+
+      
+      <article>
+        <h3>
+          Thank you!
+        </h3>
+        
+        <ul>
+          <li>
+            <a href='http://hukai.me/android-training-course-in-chinese/index.html'>中文Android教程/</a>
+          </li>
+          <li>
+            <a href='http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/'>Android学习之旅/</a>
+          </li>
+          <li>
+            <a href='http://developer.android.com/'>Android开发者官网/</a>
+          </li>
+        </ul>
+      </article>
+
+    </section>
+
+  </body>
+</html>
+  

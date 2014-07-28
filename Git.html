@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Git Intro</title>
+
+    <meta charset='utf-8'>
+    <script
+      src='css/slides.js'></script>
+  </head>
+  
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+    
+    
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+      
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+        
+        
+      
+      <article class='biglogo'>
+      </article>
+
+      <article>
+        <h1>
+          GIT Introduction
+        </h1>
+        <p>
+          Ninja Chen
+          <br>
+          July 2014
+        </p>
+      </article>
+      
+      <article>
+        <h1>
+          软件工程与代码管理。。。
+        </h1>
+      
+      </article>
+
+      <article>
+        <h3>
+          Local Version Control Systems
+        </h3>
+        <!--p>
+          Many people’s version-control method of choice is to copy files into another directory (perhaps a time-stamped directory, if they’re clever). This approach is very common because it is so simple, but it is also incredibly error prone. It is easy to forget which directory you’re in and accidentally write to the wrong file or copy over files you don’t mean to.
+        </p-->
+        <p>
+        <img class='centered' style='height: 500px' src='images/Local_Version_ Control_ Systems.png'>
+        </p>
+        <div class='source'>
+          Source: http://git-scm.com/
+        </div>
+      </article>
+
+      <article class='smaller'>
+        <h3>
+          Centralized Version Control Systems
+        </h3>
+        <p>
+          Centralized Version Control Systems, such as CVS, Subversion, and Perforce, have a single server that contains all the versioned files, and a number of clients that check out files from that central place
+        </p>
+        <p>
+        <img style='height: 500px' src='images/Centralized_Version_Control_Systems.png'>
+        </p>
+      </article>
+
+      <article class='smaller'>
+        <h3>
+          Distributed Version Control Systems
+        </h3>
+        <p>
+          In a DVCS (such as Git, Mercurial, Bazaar or Darcs), clients don’t just check out the latest snapshot of the files: they fully mirror the repository. 
+        </p>
+        <p>
+        <img class='centered' style='height: 500px' src='images/Distributed_Version_Control_Systems.png'>
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          Git的优势
+        </h3>
+        <ul class="build">
+          <li>
+              GIT是分布式的
+          </li>
+          <li>
+              GIT把内容按元数据方式存储，而SVN是按文件
+          </li>
+          <li>
+              基于第二点，GIT分支优于SVN的分支
+          </li>
+          <!-- <li>
+              GIT没有一个全局的版本号，而SVN有
+          </li> -->
+          <li>
+              GIT的内容完整性要优于SVN
+          </li>
+        </ul>
+        <!--SVN有更好的Windows平台支持,svn学习成本低-->
+
+<!--         <div class="build">
+          <p>Any element with child nodes can build.</p>
+          <p>It doesn't have to be a list.</p>
+        </div> -->
+      </article>
+
+      <article>
+        <h3>
+          常用的GIT命令
+        </h3>
+        <ul class="build">
+          <li>
+              git clone {git-url}
+          </li>
+          <li>
+              git add -A
+          </li>
+          <li>
+              git commit -m 'fix bug XXXX'
+          </li>
+          <li>
+              git branch develop
+          </li>
+          <!-- <li>
+              GIT没有一个全局的版本号，而SVN有
+          </li> -->
+          <li>
+              git checkout master
+          </li>
+        </ul>
+        <!--SVN有更好的Windows平台支持,svn学习成本低-->
+
+<!--         <div class="build">
+          <p>Any element with child nodes can build.</p>
+          <p>It doesn't have to be a list.</p>
+        </div> -->
+      </article>
+
+      
+      <article class='smaller'>
+        <q>
+          The best way to predict the future is to try something new.
+        </q>
+        <div class='author'>
+          Ninja Chen
+        </div>
+      </article>
+      
+      <article>
+        <h3>
+          Thank you!
+        </h3>
+        
+        <ul>
+          <li>
+            <a href='http://git-scm.com/'>git-scm.com</a>
+          </li>
+          <li>
+            <a href='https://code.google.com/p/io-2012-slides/'>https://code.google.com/p/io-2012-slides/</a>
+          </li>
+          <li>
+            <a href="https://windows.github.com/">https://windows.github.com/</a>
+          </li>
+        </ul>
+      </article>
+
+    </section>
+
+  </body>
+</html>
+  
